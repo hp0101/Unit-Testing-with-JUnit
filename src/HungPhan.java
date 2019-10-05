@@ -88,12 +88,4 @@ public class HungPhan {
 		
 		return result;
 	}
-	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		HungPhan j = new HungPhan();
-		System.out.println(j.getRotatedFullName(2));
-		System.out.println(j.getRotatedFullName(-4));
-	}
-
 }
