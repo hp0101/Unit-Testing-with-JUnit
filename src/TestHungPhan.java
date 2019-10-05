@@ -40,19 +40,19 @@ public class TestHungPhan {
 	
 	@Test
 	public void testGetRotatedFullNamePositiveShift() {
-		assertEquals("ng PhanHu", hp.getRotatedFullName(2), "getRotatedFullName() should return \"ng Phan\".");
+		assertEquals("ng PhanHu", hp.getRotatedFullName(2), "getRotatedFullName() should return ng Phan.");
 	}
 	
 	@Test 
 	public void testGetRotatedFullNameNegativeShift() {
-		assertEquals("PhanHung ", hp.getRotatedFullName(-4), "getRotatedFullName() should return \"PhanHung \".");
+		assertEquals("PhanHung ", hp.getRotatedFullName(-4), "getRotatedFullName() should return PhanHung .");
 	}
 	
 	@Test 
 	public void testGetRotatedFullNameOtherShift() {
-		assertEquals("Shift value is out of bound", hp.getRotatedFullName(10), "getRotatedFullName() should return \"Shift value is out of bound\".");
-		assertEquals("Shift value is out of bound", hp.getRotatedFullName(-10), "getRotatedFullName() should return \"Shift value is out of bound\".");
-		assertEquals("Hung Phan", hp.getRotatedFullName(0), "getRotatedFullName() should return \"Hung Phan\".");
+		assertEquals("Shift value is out of bound", hp.getRotatedFullName(10), "getRotatedFullName() should return Shift value is out of bound.");
+		assertEquals("Shift value is out of bound", hp.getRotatedFullName(-10), "getRotatedFullName() should return Shift value is out of bound.");
+		assertEquals("Hung Phan", hp.getRotatedFullName(0), "getRotatedFullName() should return Hung Phan.");
 	}
 	
 
