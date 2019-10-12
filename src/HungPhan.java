@@ -3,8 +3,8 @@ public class HungPhan {
 	String fullName = "Hung Phan";
     String firstName = "Hung";
 	String lastName = "Phan";
-	String uciIdString = "20243133";
-	int uciIdInt = 20243133;
+	String UCInetID = "hpphan";
+	int studentNumber = 20243133;
 	
 	
 	public String getFullName() {
@@ -20,11 +20,11 @@ public class HungPhan {
 	}
 	
 	public String getUCInetID() {
-		return uciIdString;
+		return UCInetID;
 	}
 
 	public int getStudentNumber() {
-		return uciIdInt;
+		return studentNumber;
 	}
 	
 	public String getRotatedFullName(int shift) {

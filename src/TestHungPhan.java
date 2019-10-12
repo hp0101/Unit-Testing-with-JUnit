@@ -30,7 +30,7 @@ public class TestHungPhan {
 	
 	@Test
 	public void testGetUCInetID() {
-		assertEquals("20243133", hp.getUCInetID(), "hp.getUCInetID() should return 20243133.");
+		assertEquals("hpphan", hp.getUCInetID(), "hp.getUCInetID() should return hpphan.");
 	}
 	
 	@Test
